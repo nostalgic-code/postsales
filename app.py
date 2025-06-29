@@ -9,7 +9,7 @@ USERNAME = 'd5900938-be95-4412-95b3-50b11983e13e'
 PASSWORD = '90fa0de5-250a-4e99-bd65-85b1854d9c82'
 
 # External API endpoint
-EXTERNAL_API_URL = 'http://102.33.60.228:9183/getResources/postSalesOrderV2'
+EXTERNAL_API_URL = 'http://102.33.60.228:8769/getResources/getResources/postSalesOrderV2'
 
 @app.route('/send-order', methods=['POST'])
 def send_order():
